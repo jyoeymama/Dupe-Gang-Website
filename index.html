@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dupe Gang - 6b6t Duping Masters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --bg-dark: #0f1020;
+            --text-primary: #e0e0ff;
+            --text-secondary: #8888aa;
+            --accent: #4a90e2;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: 'Space Mono', monospace;
+            line-height: 1.8;
+        }
+        .terminal-border {
+            border: 2px solid var(--text-secondary);
+            border-left-width: 6px;
+        }
+        .code-highlight {
+            color: var(--accent);
+        }
+        .section-header {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .section-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="text-center mb-16">
+            <h1 class="text-6xl font-bold mb-4 uppercase tracking-widest text-white">
+                Dupe <span class="code-highlight">[</span>Gang<span class="code-highlight">]</span>
+            </h1>
+            <p class="text-xl text-text-secondary tracking-wide">
+                Masters of duping • 6b6t Collective
+            </p>
+        </header>
+
+        <main>
+            <section class="bg-gray-900 p-8 mb-12 terminal-border">
+                <h2 class="text-3xl font-bold section-header mb-6">
+                    Our Mission
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <p class="mb-4">
+                            <span class="code-highlight">></span> Dupe Gang exists at the intersection 
+                            of strategy, survival, and pure 6b6t innovation when it comes to our dupes.
+                        </p>
+                        <p>
+                            <span class="code-highlight">></span> We transform the server's chaos 
+                            into a calculated system of dominance of duping on 6b6t.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-text-secondary">
+                            Our methodology is simple: Dupe, Dupe, Dupe.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <section class="bg-gray-900 p-6 terminal-border">
+                    <h3 class="text-2xl font-semibold section-header mb-4">
+                        Operational Metrics
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <span class="code-highlight">[*]</span> Advanced base and stash builds
+                        </li>
+                        <li>
+                            <span class="code-highlight">[*]</span> Strategic server dominance
+                        </li>
+                        <li>
+                            <span class="code-highlight">[*]</span> Persistent server presence
+                        </li>
+                        <li>
+                            <span class="code-highlight">[*]</span> Unconventional duping tactics and knowledge
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="bg-gray-900 p-6 terminal-border">
+                    <h3 class="text-2xl font-semibold section-header mb-4">
+                        Collective Philosophy
+                    </h3>
+                    <p>
+                        In the anarchic landscape of 6b6t, survival is an art. 
+                        We don't just play the game - we redefine its boundaries with duping.
+                    </p>
+                </section>
+            </div>
+
+            <section class="text-center bg-gray-900 p-12 terminal-border">
+                <h2 class="text-3xl font-bold mb-6">
+                    Recruitment Protocol
+                </h2>
+                <p class="max-w-2xl mx-auto text-lg mb-8 text-text-secondary">
+                    Seeking individuals who can transform potential into power and duping knowledge. 
+                    Not everyone qualifies. Prove your worth.
+                </p>
+                <button onclick="alert('Recruitment is by strict invitation. Demonstrate exceptional capability.')" 
+                        class="bg-accent text-white font-mono font-bold py-3 px-6 rounded-md 
+                               hover:bg-opacity-80 transition duration-300 uppercase tracking-wider">
+                    Initiate Contact
+                </button>
+            </section>
+        </main>
+
+        <footer class="text-center mt-12 py-6 text-text-secondary">
+            <p class="font-mono">
+                2024 Dupe Gang • Masters of duping
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
